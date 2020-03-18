@@ -1,0 +1,21 @@
+.root{
+    -fx-background-color: #00ffff;
+}
+.table-row-cell:filled {
+-fx-background-color: #efe939;
+}
+.table-row-cell:filled:green {
+-fx-background-color: #38ee00;
+}
+.table-row-cell:filled .table-cell {
+-fx-text-fill: red;
+}
+.table-row-cell:filled:green .table-cell {
+-fx-text-fill: green;
+}
+.red-column.table-cell {
+    -fx-padding: 0.5em;
+    -fx-border-color: transparent -fx-box-border transparent transparent;
+    -fx-font: 13px "Arial";
+    -fx-text-fill: red;
+}

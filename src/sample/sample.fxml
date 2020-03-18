@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="906.0" prefWidth="1266.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TreeTableView fx:id="Table" layoutX="24.0" layoutY="177.0" prefHeight="906.0" prefWidth="773.0" style="-fx-background-color: #00ffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="24.0" AnchorPane.topAnchor="0.0">
+        <columns>
+            <TreeTableColumn fx:id="problemcol" prefWidth="75.0" text="Problem"/>
+            <TreeTableColumn fx:id="filecol" prefWidth="75.0" text="Selected File" />
+            <TreeTableColumn fx:id="languagecol" prefWidth="75.0" text="Language" />
+            <TreeTableColumn fx:id="statuscol" prefWidth="75.0" text="Status" />
+        </columns>
+         <columnResizePolicy>
+            <TreeTableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TreeTableView>
+      <AnchorPane layoutX="805.0" layoutY="266.0" prefHeight="499.0" prefWidth="447.0" style="-fx-background-color: #00ff40; -fx-background-radius: 25px 25px 25px 25px;">
+         <children>
+            <Label fx:id="chooseNumber" layoutX="14.0" layoutY="33.0" prefHeight="65.0" prefWidth="165.0" style="-fx-background-color: #ff00ff; -fx-background-radius: 25px;" text="Choose Problem Number" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="languagechoose" alignment="CENTER" layoutX="25.0" layoutY="135.0" prefHeight="35.0" prefWidth="143.0" style="-fx-background-color: #ff00ff; -fx-background-radius: 15px;" text="Language">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <JFXComboBox fx:id="problemcomb" layoutX="182.0" layoutY="43.0" prefHeight="31.0" prefWidth="251.0" />
+            <JFXComboBox fx:id="languagecomb" layoutX="171.0" layoutY="137.0" prefHeight="31.0" prefWidth="259.0" />
+            <JFXButton fx:id="filechoose" layoutX="29.0" layoutY="234.0" style="-fx-background-color: #ff00ff; -fx-background-radius: 25px;" text="Choose File">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </JFXButton>
+            <JFXTextField fx:id="filetext" layoutX="171.0" layoutY="241.0" prefHeight="31.0" prefWidth="259.0" />
+            <JFXButton fx:id="submit" layoutX="161.0" layoutY="377.0" prefHeight="61.0" prefWidth="153.0" style="-fx-background-color: #ffffff; -fx-background-radius: 25px;" text="Submit">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <Label fx:id="problevel" alignment="CENTER" layoutX="824.0" layoutY="21.0" prefHeight="21.0" prefWidth="387.0" style="-fx-background-color: #00bfff; -fx-background-radius: 15px;" text="Click Here To See Problems">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="problem" layoutX="921.0" layoutY="91.0" prefHeight="58.0" prefWidth="193.0" style="-fx-background-color: #1a0000; -fx-background-radius: 25px;" text="Problem Page" textFill="#e8dede">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </JFXButton>
+      <Label alignment="CENTER" layoutX="822.0" layoutY="209.0" prefHeight="45.0" prefWidth="397.0" style="-fx-background-color: #ff3333; -fx-background-radius: 15px;" text="Submit Section" textFill="#d7d0d0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="906.0" prefWidth="1266.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.problemController">
+   <children>
+      <AnchorPane fx:id="pane1" layoutX="14.0" layoutY="6.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="840.0" fitWidth="1266.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="65.0">
+               <image>
+                  <Image url="@Image.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="672.0" fitWidth="1141.0" layoutX="62.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="74.0" AnchorPane.leftAnchor="62.0" AnchorPane.rightAnchor="63.0">
+               <image>
+                  <Image url="@prb2.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="539.0" layoutY="26.0" prefHeight="55.0" prefWidth="170.0" style="-fx-background-color: #00ffff; -fx-background-radius: 25px;" text="Problem-1">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="509.0" layoutY="97.0" prefHeight="43.0" prefWidth="253.0" style="-fx-background-color: #00ffbf; -fx-background-radius: 15px;" text="Add Two Numbers">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane2" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="840.0" fitWidth="1266.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="65.0">
+               <image>
+                  <Image url="@Image.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="563.0" fitWidth="1247.0" layoutX="7.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="148.6585693359375" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="12.0">
+               <image>
+                  <Image url="@prb3.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="539.0" layoutY="26.0" prefHeight="55.0" prefWidth="170.0" style="-fx-background-color: #00ffff; -fx-background-radius: 25px;" text="Problem-2">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="509.0" layoutY="97.0" prefHeight="43.0" prefWidth="253.0" style="-fx-background-color: #00ffbf; -fx-background-radius: 15px;" text="Theatre Square">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane3" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+         <ImageView fitHeight="840.0" fitWidth="1266.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="65.0">
+            <image>
+               <Image url="@Image.jpg" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="621.0" fitWidth="1163.0" layoutX="70.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="44.0450439453125">
+            <image>
+               <Image url="@prob1.png" />
+            </image>
+         </ImageView>
+         <Label alignment="CENTER" layoutX="539.0" layoutY="26.0" prefHeight="55.0" prefWidth="170.0" style="-fx-background-color: #00ffff; -fx-background-radius: 25px;" text="Problem-3">
+            <font>
+               <Font size="30.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" layoutX="492.0" layoutY="97.0" prefHeight="43.0" prefWidth="280.0" style="-fx-background-color: #00ffbf; -fx-background-radius: 15px;" text="Multiplication Table">
+            <font>
+               <Font size="29.0" />
+            </font>
+         </Label>
+      </children>
+   </AnchorPane>
+      <AnchorPane fx:id="pane4" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="840.0" fitWidth="1266.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="65.0">
+               <image>
+                  <Image url="@Image.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="593.0" fitWidth="1225.0" layoutX="26.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="26.0" AnchorPane.rightAnchor="15.0">
+               <image>
+                  <Image url="@prob6.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="538.0" layoutY="22.0" prefHeight="55.0" prefWidth="170.0" style="-fx-background-color: #00ffff; -fx-background-radius: 25px;" text="Problem-4">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="493.0" layoutY="89.0" prefHeight="90.0" prefWidth="310.0" style="-fx-background-color: #00ffbf; -fx-background-radius: 15px;" text="Yet Another Meme Problem" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXButton layoutX="1102.0" layoutY="67.0" onAction="#nextAction" style="-fx-background-color: #0080ff; -fx-background-radius: 50px;" text="Next Problem">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="940.0" layoutY="69.0" onAction="#prevAction" style="-fx-background-color: #ff00bf; -fx-background-radius: 50px;" text="Previous problem">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

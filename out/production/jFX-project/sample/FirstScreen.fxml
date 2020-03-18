@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="906.0" prefWidth="1266.0" style="-fx-background-color: #ffffff;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.screenController">
+   <children>
+      <ProgressBar fx:id="progressbar" layoutX="364.0" layoutY="689.0" prefHeight="23.0" prefWidth="568.0" progress="0.0" />
+      <ImageView fitHeight="236.0" fitWidth="280.0" layoutX="305.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@plogo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="230.0" fitWidth="293.0" layoutX="585.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pl.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="334.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@java.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="521.0" layoutY="541.0" text="Welcome To Java Offline Judge">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="552.0" layoutY="647.0" prefHeight="29.0" prefWidth="197.0" text="Please Wait A Moment">
+         <font>
+            <Font name="MV Boli" size="17.0" />
+         </font>
+      </Label>
+      <ProgressIndicator fx:id="pi" layoutX="621.0" layoutY="712.0" progress="0.0" />
+   </children>
+</AnchorPane>
